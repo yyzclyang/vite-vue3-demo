@@ -15,12 +15,18 @@ export default {
 
 <style lang="scss" scoped>
 .home {
+  text-align: center;
   > .welcome-tip {
     font-size: 24px;
   }
   > .link {
     text-decoration: none;
     color: inherit;
+    height: 24px;
+    line-height: 20px;
+    padding: 2px 8px;
+    border: 1px solid #666;
+    border-radius: 12px;
   }
 }
 </style>
