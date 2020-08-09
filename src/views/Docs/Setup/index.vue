@@ -23,21 +23,23 @@ export default {
     const count = ref(0);
     const user = reactive({ name: "yyzcl", age: 18 });
 
+    const add = () => {
+      count.value += 1;
+    };
+    const changeName = () => {
+      user.name += "!";
+    };
+    const growUp = () => {
+      user.age += 1;
+    };
+
     return {
       count,
+      add,
       user,
+      changeName,
+      growUp,
     };
-  },
-  methods: {
-    add() {
-      this.count += 1;
-    },
-    changeName() {
-      this.user.name += "!";
-    },
-    growUp() {
-      this.user.age += 1;
-    },
   },
 };
 </script>
