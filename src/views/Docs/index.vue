@@ -1,6 +1,6 @@
 <template>
   <div class="docs">
-    <TopNav />
+    <top-nav />
     <div class="content">
       <aside class="aside">
         <ul>
@@ -18,6 +18,7 @@
 
 <script>
 import TopNav from "../../components/TopNav/index.vue";
+
 export default {
   components: { TopNav },
 };

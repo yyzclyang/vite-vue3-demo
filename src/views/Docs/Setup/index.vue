@@ -15,6 +15,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import { ref, reactive } from "vue";
 
@@ -43,6 +44,7 @@ export default {
   },
 };
 </script>
+
 <style lang="scss" scoped>
 .setup {
   p {
