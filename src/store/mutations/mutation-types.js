@@ -1,0 +1,4 @@
+export const CHANGE_LOGIN_STATUS = 'CHANGE_LOGIN_STATUS';
+export const CHANGE_NAME = 'CHANGE_NAME';
+export const CHANGE_AGE = 'CHANGE_AGE';
+export const CHANGE_STAR = 'CHANGE_STAR';
